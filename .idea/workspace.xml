@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d95dc49b-ca1a-4b6c-8281-05e4d1968257" name="Changes" comment="" />
+    <list default="true" id="d95dc49b-ca1a-4b6c-8281-05e4d1968257" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/View.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2eCULueqJ8ZEtdA0hELj5s5TVXa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,7 +31,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/Amebo_ng",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -37,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711408008988</updated>
       <workItem from="1711408010407" duration="6000" />
+      <workItem from="1711432273438" duration="55000" />
     </task>
     <servers />
   </component>
