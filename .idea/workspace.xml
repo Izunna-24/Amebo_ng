@@ -4,16 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d95dc49b-ca1a-4b6c-8281-05e4d1968257" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/model/View.java" afterDir="false" />
+    <list default="true" id="d95dc49b-ca1a-4b6c-8281-05e4d1968257" name="Changes" comment="java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/ViewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/services/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/CommentRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,7 +45,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/Amebo_ng",
+    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/user-application",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -48,10 +64,80 @@
       <updated>1711408008988</updated>
       <workItem from="1711408010407" duration="6000" />
       <workItem from="1711432273438" duration="55000" />
+      <workItem from="1711432467744" duration="7494000" />
     </task>
+    <task id="LOCAL-00001" summary="java">
+      <option name="closed" value="true" />
+      <created>1711432798121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711432798121</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java">
+      <option name="closed" value="true" />
+      <created>1711433206371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711433206371</updated>
+    </task>
+    <task id="LOCAL-00003" summary="java">
+      <option name="closed" value="true" />
+      <created>1711433219479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711433219479</updated>
+    </task>
+    <task id="LOCAL-00004" summary="java">
+      <option name="closed" value="true" />
+      <created>1711433231778</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711433231778</updated>
+    </task>
+    <task id="LOCAL-00005" summary="java">
+      <option name="closed" value="true" />
+      <created>1711433245709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711433245709</updated>
+    </task>
+    <task id="LOCAL-00006" summary="java">
+      <option name="closed" value="true" />
+      <created>1711433258744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711433258744</updated>
+    </task>
+    <task id="LOCAL-00007" summary="java">
+      <option name="closed" value="true" />
+      <created>1711434137948</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711434137948</updated>
+    </task>
+    <task id="LOCAL-00008" summary="java">
+      <option name="closed" value="true" />
+      <created>1711434548207</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711434548207</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java" />
+    <option name="LAST_COMMIT_MESSAGE" value="java" />
   </component>
 </project>
