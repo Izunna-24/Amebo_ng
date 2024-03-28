@@ -1,4 +1,4 @@
-package nation.amebo.data.model;
+package nation.amebo.data.models;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
