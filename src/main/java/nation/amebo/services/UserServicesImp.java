@@ -18,8 +18,10 @@ public class UserServicesImp implements UserServices{
         user.setUsername(registerRequest.getPassword());
         user.setPassword(registerRequest.getPassword());
         userRepository.save(user);
+    }
 
-
-
+    @Override
+    public long numberOfRegisteredUsers() {
+        return userRepository.count();
     }
 }
