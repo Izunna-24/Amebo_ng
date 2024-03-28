@@ -13,7 +13,7 @@ public class PostServiceImp implements PostService{
     private PostRepository postRepository;
     @Override
     public void createPost(CreatePostRequest createPostRequest) {
-        Post post = new Post();
+        //Post post = new Post();
 
 
     }
