@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d95dc49b-ca1a-4b6c-8281-05e4d1968257" name="Changes" comment="java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/ViewRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/services/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nation/amebo/data/repository/UserRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/services/PostServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/services/PostServiceImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -41,8 +38,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.UserRepositoryTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/DELL/IdeaProjects/user-application",
@@ -54,6 +54,36 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="nation.amebo.data.repository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amebo_ng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nation.amebo.data.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nation.amebo.data.repository" />
+      <option name="MAIN_CLASS_NAME" value="nation.amebo.data.repository.UserRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +95,7 @@
       <workItem from="1711408010407" duration="6000" />
       <workItem from="1711432273438" duration="55000" />
       <workItem from="1711432467744" duration="7494000" />
+      <workItem from="1711500241061" duration="6941000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <option name="closed" value="true" />
@@ -130,7 +161,119 @@
       <option name="project" value="LOCAL" />
       <updated>1711434548207</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="java">
+      <option name="closed" value="true" />
+      <created>1711500606897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711500606897</updated>
+    </task>
+    <task id="LOCAL-00010" summary="java">
+      <option name="closed" value="true" />
+      <created>1711500638902</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711500638902</updated>
+    </task>
+    <task id="LOCAL-00011" summary="java">
+      <option name="closed" value="true" />
+      <created>1711500653597</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711500653597</updated>
+    </task>
+    <task id="LOCAL-00012" summary="java">
+      <option name="closed" value="true" />
+      <created>1711500668167</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711500668167</updated>
+    </task>
+    <task id="LOCAL-00013" summary="java">
+      <option name="closed" value="true" />
+      <created>1711500691408</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711500691408</updated>
+    </task>
+    <task id="LOCAL-00014" summary="java">
+      <option name="closed" value="true" />
+      <created>1711500713441</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711500713441</updated>
+    </task>
+    <task id="LOCAL-00015" summary="java">
+      <option name="closed" value="true" />
+      <created>1711500729885</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711500729885</updated>
+    </task>
+    <task id="LOCAL-00016" summary="java">
+      <option name="closed" value="true" />
+      <created>1711500748750</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711500748750</updated>
+    </task>
+    <task id="LOCAL-00017" summary="java">
+      <option name="closed" value="true" />
+      <created>1711500761395</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711500761395</updated>
+    </task>
+    <task id="LOCAL-00018" summary="java">
+      <option name="closed" value="true" />
+      <created>1711501292091</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711501292091</updated>
+    </task>
+    <task id="LOCAL-00019" summary="java">
+      <option name="closed" value="true" />
+      <created>1711501307178</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711501307178</updated>
+    </task>
+    <task id="LOCAL-00020" summary="java">
+      <option name="closed" value="true" />
+      <created>1711501326628</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711501326628</updated>
+    </task>
+    <task id="LOCAL-00021" summary="java">
+      <option name="closed" value="true" />
+      <created>1711501452624</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711501452624</updated>
+    </task>
+    <task id="LOCAL-00022" summary="java">
+      <option name="closed" value="true" />
+      <created>1711501762366</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711501762366</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
