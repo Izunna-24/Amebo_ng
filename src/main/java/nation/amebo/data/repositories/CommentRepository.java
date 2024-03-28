@@ -1,6 +1,6 @@
-package nation.amebo.data.repository;
+package nation.amebo.data.repositories;
 
-import nation.amebo.data.model.Comment;
+import nation.amebo.data.models.Comment;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
