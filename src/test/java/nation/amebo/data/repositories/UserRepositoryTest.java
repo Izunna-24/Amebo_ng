@@ -7,7 +7,7 @@ import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 @DataMongoTest
-class UserRepositoryTest {
+public class UserRepositoryTest {
     @Autowired
     private UserRepository userRepository;
 
