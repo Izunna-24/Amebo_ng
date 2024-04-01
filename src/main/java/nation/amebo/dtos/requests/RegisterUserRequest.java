@@ -1,11 +1,11 @@
-package nation.amebo.dto;
+package nation.amebo.dtos.requests;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @Document
-public class RegisterRequest {
+public class RegisterUserRequest {
     private String firstname;
     private String lastname;
     private String password;
