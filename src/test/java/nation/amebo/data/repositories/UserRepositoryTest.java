@@ -12,7 +12,7 @@ public class UserRepositoryTest {
     private UserRepository userRepository;
 
     @Test
-    public void mongoDBCanSaveTest(){
+    public void mongoDBCanSaveUsersTest(){
         userRepository.deleteAll();
         User user = new User();
         userRepository.save(user);
