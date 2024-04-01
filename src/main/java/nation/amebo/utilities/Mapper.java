@@ -1,16 +1,15 @@
 package nation.amebo.utilities;
 
 import nation.amebo.data.models.User;
-import nation.amebo.dto.RegisterRequest;
+import nation.amebo.dtos.requests.RegisterUserRequest;
 
 public class Mapper {
-    public static User map(RegisterRequest registerRequest){
+    public static User map(RegisterUserRequest registerUserRequest){
         User user = new User();
-
-        user.setFirstname(registerRequest.getFirstname());
-        user.setLastname(registerRequest.getLastname());
-        user.setUsername(registerRequest.getPassword());
-        user.setPassword(registerRequest.getPassword());
+        user.setFirstname(registerUserRequest.getFirstname());
+        user.setLastname(registerUserRequest.getLastname());
+        user.setUsername(registerUserRequest.getPassword());
+        user.setPassword(registerUserRequest.getPassword());
         return user;
     }
 }
