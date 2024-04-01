@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @Document
-public class LoginUserRequest {
+public class LoginRequest {
     private String username;
     private String password;
 }
