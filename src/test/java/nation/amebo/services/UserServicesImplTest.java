@@ -2,8 +2,8 @@ package nation.amebo.services;
 
 
 import nation.amebo.data.repositories.UserRepository;
-import nation.amebo.dto.RegisterRequest;
-import nation.amebo.excetptions.AmeboNationExceptions;
+import nation.amebo.dtos.requests.RegisterUserRequest;
+import nation.amebo.excetptions.AmeboNationBlogExceptions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,28 +22,28 @@ class UserServicesImplTest {
     }
     @Test
     public void registerUser_usersCountIsOneTest() {
-        RegisterRequest registerRequest = new RegisterRequest();
-        registerRequest.setFirstname("Bliss");
-        registerRequest.setLastname("Hamcrest");
-        registerRequest.setUsername("username");
-        registerRequest.setPassword("password");
-        userServices.registerUserWith(registerRequest);
+        RegisterUserRequest registerUserRequest = new RegisterUserRequest();
+        registerUserRequest.setFirstname("Bliss");
+        registerUserRequest.setLastname("Hamcrest");
+        registerUserRequest.setUsername("username");
+        registerUserRequest.setPassword("password");
+        userServices.registerUserWith(registerUserRequest);
         assertEquals(1, userRepository.count());
     }
 
         @Test
         public void registerNonUser_usersCountThrowsUserExistException() {
-        RegisterRequest registerRequest = new RegisterRequest();
-        registerRequest.setFirstname("Bliss");
-        registerRequest.setLastname("Hamcrest");
-        registerRequest.setUsername("username");
-        registerRequest.setPassword("password");
-        userServices.registerUserWith(registerRequest);
+        RegisterUserRequest registerUserRequest = new RegisterUserRequest();
+        registerUserRequest.setFirstname("Bliss");
+        registerUserRequest.setLastname("Hamcrest");
+        registerUserRequest.setUsername("username");
+        registerUserRequest.setPassword("password");
+        userServices.registerUserWith(registerUserRequest);
         assertEquals(1, userRepository.count());
     try {
-        userServices.registerUserWith(registerRequest);
+        userServices.registerUserWith(registerUserRequest);
 
-    }catch (AmeboNationExceptions e){
+    }catch (AmeboNationBlogExceptions e){
         assertEquals(e.getMessage(),"User exists");
     }
     }
