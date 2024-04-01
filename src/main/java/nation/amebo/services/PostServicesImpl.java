@@ -1,7 +1,8 @@
 package nation.amebo.services;
 
+import nation.amebo.data.models.Post;
 import nation.amebo.data.repositories.PostRepository;
-import nation.amebo.dto.CreatePostRequest;
+import nation.amebo.dtos.requests.CreatePostRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +13,10 @@ public class PostServicesImpl implements PostServices {
     private PostRepository postRepository;
     @Override
     public void createPost(CreatePostRequest createPostRequest) {
-        //Post post = new Post();
+        Post post = new Post();
+        post.setTitle(createPostRequest.getTitle());
+        post.setContent(createPostRequest.getContent());
+        //post.
 
 
     }
