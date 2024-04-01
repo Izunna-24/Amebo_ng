@@ -19,5 +19,6 @@ public class User {
 
     @DBRef
     private List<Post> posts;
+    //private Role role;
 
 }
