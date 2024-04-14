@@ -1,7 +1,11 @@
 package nation.amebo.services;
 
+import nation.amebo.data.models.Post;
 import nation.amebo.data.models.User;
+import nation.amebo.data.repositories.PostRepository;
 import nation.amebo.data.repositories.UserRepository;
+import nation.amebo.dtos.requests.CreatePostRequest;
+import nation.amebo.dtos.requests.DeleteUserPostRequest;
 import nation.amebo.dtos.requests.LoginRequest;
 import nation.amebo.dtos.requests.RegisterUserRequest;
 import nation.amebo.excetptions.UserDoesNotExistException;
@@ -19,6 +23,9 @@ import static nation.amebo.utilities.Mapper.map;
 public class UserServicesImpl implements UserServices {
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private PostRepository postRepository;
 
     @Override
     public void registerUserWith(RegisterUserRequest registerUserRequest) {
@@ -61,6 +68,22 @@ public class UserServicesImpl implements UserServices {
         Optional<User> user = userRepository.findByUsername(username);
         if (user.isEmpty()) throw new UserDoesNotExistException(String.format("%s is not found! ", username));
      return user.get();
+    }
+
+    @Override
+    public Post createPost(CreatePostRequest createPostRequest) {
+        User user = new User();
+        user.setUsername(createPostRequest.getPoster());
+
+        Post post = new Post();
+        post.setTitle(createPostRequest.getTitle());
+        post.setContent(createPostRequest.getContent());
+        return post;
+    }
+
+    @Override
+    public void deletePost(DeleteUserPostRequest deleteUserPostRequest) {
+       // Post createdPost = postRepository.findByContent(deleteUserPostRequest.)
     }
 
 }

@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d95dc49b-ca1a-4b6c-8281-05e4d1968257" name="Changes" comment="java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/excetptions/UserDoesNotExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/excetptions/WrongPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/excetptions/WrongUserNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/dtos/requests/DeleteUserPostRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repositories/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repositories/PostRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/data/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/dtos/requests/LoginUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/dtos/requests/LoginRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/services/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/services/UserServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nation/amebo/services/UserServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nation/amebo/services/UserServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nation/amebo/services/UserServicesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nation/amebo/services/UserServicesImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,79 +188,10 @@
       <workItem from="1711500241061" duration="12765000" />
       <workItem from="1711595593122" duration="8310000" />
       <workItem from="1711625862331" duration="15055000" />
-      <workItem from="1711866711487" duration="15667000" />
-    </task>
-    <task id="LOCAL-00036" summary="java">
-      <option name="closed" value="true" />
-      <created>1711593546433</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1711593546433</updated>
-    </task>
-    <task id="LOCAL-00037" summary="java">
-      <option name="closed" value="true" />
-      <created>1711593569586</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1711593569586</updated>
-    </task>
-    <task id="LOCAL-00038" summary="java">
-      <option name="closed" value="true" />
-      <created>1711593592106</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1711593592106</updated>
-    </task>
-    <task id="LOCAL-00039" summary="java">
-      <option name="closed" value="true" />
-      <created>1711593612128</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1711593612128</updated>
-    </task>
-    <task id="LOCAL-00040" summary="java">
-      <option name="closed" value="true" />
-      <created>1711593629176</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1711593629176</updated>
-    </task>
-    <task id="LOCAL-00041" summary="java">
-      <option name="closed" value="true" />
-      <created>1711593655764</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1711593655764</updated>
-    </task>
-    <task id="LOCAL-00042" summary="java">
-      <option name="closed" value="true" />
-      <created>1711593675477</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1711593675477</updated>
-    </task>
-    <task id="LOCAL-00043" summary="java">
-      <option name="closed" value="true" />
-      <created>1711601893821</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1711601893821</updated>
-    </task>
-    <task id="LOCAL-00044" summary="java">
-      <option name="closed" value="true" />
-      <created>1711601911897</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1711601911897</updated>
+      <workItem from="1711866711487" duration="21158000" />
+      <workItem from="1712147918433" duration="17125000" />
+      <workItem from="1712320389229" duration="3881000" />
+      <workItem from="1713084433897" duration="2002000" />
     </task>
     <task id="LOCAL-00045" summary="java">
       <option name="closed" value="true" />
@@ -583,7 +513,79 @@
       <option name="project" value="LOCAL" />
       <updated>1711960614393</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="java">
+      <option name="closed" value="true" />
+      <created>1712015072171</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1712015072171</updated>
+    </task>
+    <task id="LOCAL-00086" summary="java">
+      <option name="closed" value="true" />
+      <created>1712015089859</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1712015089859</updated>
+    </task>
+    <task id="LOCAL-00087" summary="java">
+      <option name="closed" value="true" />
+      <created>1712015105250</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1712015105250</updated>
+    </task>
+    <task id="LOCAL-00088" summary="java">
+      <option name="closed" value="true" />
+      <created>1712015130360</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1712015130360</updated>
+    </task>
+    <task id="LOCAL-00089" summary="java">
+      <option name="closed" value="true" />
+      <created>1712015157251</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1712015157251</updated>
+    </task>
+    <task id="LOCAL-00090" summary="java">
+      <option name="closed" value="true" />
+      <created>1712015180208</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1712015180208</updated>
+    </task>
+    <task id="LOCAL-00091" summary="java">
+      <option name="closed" value="true" />
+      <created>1712015196767</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1712015196767</updated>
+    </task>
+    <task id="LOCAL-00092" summary="java">
+      <option name="closed" value="true" />
+      <created>1712015214090</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1712015214090</updated>
+    </task>
+    <task id="LOCAL-00093" summary="java">
+      <option name="closed" value="true" />
+      <created>1712015228389</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1712015228389</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -32,7 +32,7 @@ class UserServicesImplTest {
     }
 
         @Test
-        public void registerNonUser_usersCountThrowsUserExistException() {
+        public void registerSameUserTwice_usersCountThrowsUserExistException() {
         RegisterUserRequest registerUserRequest = new RegisterUserRequest();
         registerUserRequest.setFirstname("Bliss");
         registerUserRequest.setLastname("Hamcrest");
